@@ -71,10 +71,11 @@ body {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .align-header {
-    align-items: stretch;
+    /* align-items: stretch; */
     justify-content: stretch;
     align-content: stretch;
 }
@@ -108,4 +109,11 @@ body {
 
 .text-white {
 	color: white;
+}
+
+.flex-container div {
+    background-color: cadetblue;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.25em;
 }
